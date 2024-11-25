@@ -1,0 +1,414 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+}
+.header-image{
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.nav{
+    display: flex;
+    margin: 1vh 10vw;
+    justify-content: space-between;
+    color:rgb(255, 0, 0);
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar li{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 30px;
+    list-style: none;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+.logo{
+    width: 20vw;
+}
+.head h3{
+    font-size: 2.1em;
+    color: rgb(12, 12, 12);
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search{
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0));
+    padding: 5px 0;
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search p{
+    color: black;
+    border-right: 1px solid gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.search i:first-child{
+    font-size: 20px;
+    color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search i{
+    color: rgb(202, 17, 17);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sec-1{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 13vh;
+}
+.box{
+    position: relative;
+    width: 265px;
+    margin: 3px 5px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px white;
+    background-color: white;
+}
+.box img{
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid white;
+    z-index: -1;
+}
+.white{
+    position: absolute;
+    bottom: 3px;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    background-color: white;
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+}
+.white span{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: white;
+    letter-spacing: 0.7px;
+}
+.middle-end{
+    margin: 60px 150px;
+}
+.sec-2 h2{
+    font-size: flex ;
+}
+.sec div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.sec-2 h6{
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: rgb(2, 1, 59);
+}
+.fa-caret-right, .sec-2 span{
+    color: rgb(53, 51, 51);
+}
+.box-1{
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    position:relative;
+    border-radius: 10px;
+}
+.box-1 div{
+    position: absolute;
+    background: linear-gradient(transparent, white);
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items:flex-end;
+    bottom: 0;
+}
+.box-1 div span:first-child{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    font-size: 1.1rem;
+    padding-bottom: 15px;
+}
+.box-1 i{
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+}
+.box-1 img{
+    width: 248px;
+    height: 340px;
+    object-fit: cover;
+}
+.sec-3{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 130px;
+    justify-content: space-between;
+}
+.middle h1{
+    font-size: 2.1rem;
+    font-weight: lighter;
+    text-align: center;
+    margin: 50px;
+    color:grey;
+}
+.sec-4{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap:30px ;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: auto;
+}
+.box-2{
+    border: 1px solid rgb(226, 215, 215);
+    box-shadow: 0px 1px 3px gray;
+    width: 340px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.box-2 div{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.box-2 div span{
+    color: gray;
+    font-size: 1.2rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sec-5{
+    margin: 0;
+    padding: 350px;
+    font-size: 120%;
+    font-weight: 300px;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.contact{
+    width: 760px;
+    overflow: hidden;
+}
+.contant img{
+    width: 250px;
+    height: 100px;
+    padding-right:40px ;
+}
+.address{
+    width: 450px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.address p{
+    padding-bottom: 10px;
+    font-size: 0.95rem;
+    color: rgb(0, 0, 0);
+}
+.address h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color:rgb(42, 0, 109);
+}
+.radio{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 230px;
+    padding-bottom: 10px;
+}
+.redio label{
+    font-size: 1.1rem;
+    color: rgb(27, 16, 16);
+}
+.radio [type="radio"]{
+    accent-color: red;
+}
+.email{
+    position: relative;
+}
+.email input{
+    height: 46px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid rgb(141, 128, 128);
+    outline: red;
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+.place{
+    position: absolute;
+    font-size: 1.3rem;
+    left: 15px;
+    top: 13px;
+    color: rgb(255, 3, 3);
+    background-color: red;
+    font-weight: lighter;
+}
+.email button{
+    width: 150px;
+    border-radius: 6px;
+    border: 1px solid rgb(231, 108, 108);
+    background-color: rgb(216, 87, 87);
+    font-size: 1.1rem;
+    margin-left: 6px;
+    color: rgb(94, 94, 94);
+}
+.download{
+    font-size: 1.5rem;
+    margin-top: 27px;
+    margin-bottom: 10px;
+    color: rgb(0, 47, 255);
+}
+.app img{
+    width: 137px;
+    height: 40px;
+}
+.sec-6{
+    margin-bottom: 110px;
+}
+.sec-6 h1{
+    font-size: 1.9rem;
+    font-weight: lighter;
+    color: rgb(31, 31, 31);
+} 
+.sec-6 h4{
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    font-weight: lighter;
+    color: rgb(31, 31, 31);
+} 
+.sec-6 a{
+    
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    margin-bottom: 1.2rem;
+    width: 20%;
+    font-size: 1rem;
+    line-height: 1.8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
+    color: gray;
+    font-size: 0.9rem;
+}
+.sec-6 i{
+    font-size: 0.3rem;
+    padding: 6px 5px;
+    color: gray;
+}
+.first img{
+    width: 128px;
+    height: 32px;
+}
+.sec-7{
+    padding: 40px 120px;
+    background-color: white;
+}
+.first{
+    display: flex;
+}
+.first-1 span{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+    text-align:right;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.second div{
+    width: 400px;
+}
+.second h4{
+    font-weight: lighter;
+    color: black;
+    white-space: nowrap;
+}
+.second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+    display: flex;
+}
+.second img{
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+.box-4{
+    display: flex;
+    flex-direction: column;
+}
+.box-4{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    box-sizing: inherit;
+}
+.third{
+    padding: 10Px 0;
+    color: gray;
+    font-size: 0.9rem;
+    max-width: 110rem;
+    width: 110rem;
+    padding: 4.8rem 0px 2.2rem;
+    position: relative;
+    
+}
